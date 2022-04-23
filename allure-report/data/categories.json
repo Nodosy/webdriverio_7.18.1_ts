@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected undefined to deeply equal [ 'Watches', 'Wristwatches', …(3) ]      \n                      actual expected\n                      \n                      undefined[ 'Watches', 'Wristwatches', 'Other Watches', 'Pocket Watches', 'Time for a New Wristwatch?' ]\n                      ",
+      "children" : [ {
+        "name" : "should verify watches category list",
+        "uid" : "ea9ab265d75c9e96",
+        "parentUid" : "31c56054ab2b09a257611230fd573dc6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648729891882,
+          "stop" : 1648729891958,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "chrome-99.0.4844.84" ]
+      } ],
+      "uid" : "31c56054ab2b09a257611230fd573dc6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

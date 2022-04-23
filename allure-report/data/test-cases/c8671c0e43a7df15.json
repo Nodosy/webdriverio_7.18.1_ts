@@ -1,0 +1,60 @@
+{
+  "uid" : "c8671c0e43a7df15",
+  "name" : "should have url when click button with chai",
+  "fullName" : "watches page.should have url when click button with chai",
+  "historyId" : "aa4909c177bc725fcc4f10abb995ce4d",
+  "time" : {
+    "start" : 1648729291819,
+    "stop" : 1648729291830,
+    "duration" : 11
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should have url when click button with chai"
+  }, {
+    "name" : "package",
+    "value" : "watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8671c0e43a7df15.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

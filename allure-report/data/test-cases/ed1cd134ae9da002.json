@@ -1,0 +1,62 @@
+{
+  "uid" : "ed1cd134ae9da002",
+  "name" : "should open fashion section on hover effect",
+  "fullName" : "watches page.should open fashion section on hover effect",
+  "historyId" : "e9d027202dfe00816c7d1d576313e7b5",
+  "time" : {
+    "start" : 1648739898484,
+    "stop" : 1648739910681,
+    "duration" : 12197
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call $ on element with selector \"#hl-cat-nav\" because element wasn't found",
+  "statusTrace" : "Error: Can't call $ on element with selector \"#hl-cat-nav\" because element wasn't found\n                    at implicitWait (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)\n                    at async Element.wrapCommandFn (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open fashion section on hover effect"
+  }, {
+    "name" : "package",
+    "value" : "watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed1cd134ae9da002.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

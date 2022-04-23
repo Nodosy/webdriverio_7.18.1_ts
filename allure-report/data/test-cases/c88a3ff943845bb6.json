@@ -1,0 +1,62 @@
+{
+  "uid" : "c88a3ff943845bb6",
+  "name" : "should update seach category",
+  "fullName" : "eBay search.should update seach category",
+  "historyId" : "fc87f04f889f9ccbd747ae8c5b73b0f",
+  "time" : {
+    "start" : 1648647613409,
+    "stop" : 1648647614183,
+    "duration" : 774
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "eBay search"
+  }, {
+    "name" : "testClass",
+    "value" : "eBay search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should update seach category"
+  }, {
+    "name" : "package",
+    "value" : "eBay search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c88a3ff943845bb6.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

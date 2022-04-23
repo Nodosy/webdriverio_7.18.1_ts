@@ -1,0 +1,259 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "screenshot suite",
+    "children" : [ {
+      "name" : "should take screenshot of website",
+      "uid" : "d02bbb6ffa5d41f9",
+      "parentUid" : "47439f735d1387212c5db93e945fd01d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648562208759,
+        "stop" : 1648562212256,
+        "duration" : 3497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    } ],
+    "uid" : "47439f735d1387212c5db93e945fd01d"
+  }, {
+    "name" : "handle multiple tabs suite",
+    "children" : [ {
+      "name" : "should open new tab",
+      "uid" : "32d7cb92a008a6e",
+      "parentUid" : "05018dbdacfd04964d03077cc81a8674",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648567274078,
+        "stop" : 1648567312273,
+        "duration" : 38195
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    } ],
+    "uid" : "05018dbdacfd04964d03077cc81a8674"
+  }, {
+    "name" : "eBay search",
+    "children" : [ {
+      "name" : "should redirect to a new page and verify the title",
+      "uid" : "9e0372f87380c24a",
+      "parentUid" : "89d85bb64651950c066e814be3a6ad29",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1648647279490,
+        "stop" : 1648647279490,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should update seach category",
+      "uid" : "b792aa08f3add010",
+      "parentUid" : "89d85bb64651950c066e814be3a6ad29",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1648647279490,
+        "stop" : 1648647279490,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "open ebay website main url and verify title to be correct",
+      "uid" : "2a7a3c9ca90ae4d2",
+      "parentUid" : "89d85bb64651950c066e814be3a6ad29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648647603906,
+        "stop" : 1648647607969,
+        "duration" : 4063
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should search for a product and verify the search text value",
+      "uid" : "98776cb52aa5c89",
+      "parentUid" : "89d85bb64651950c066e814be3a6ad29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648647607970,
+        "stop" : 1648647613263,
+        "duration" : 5293
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should redirect to a new page and verify the title",
+      "uid" : "fcdf88bb34fe826b",
+      "parentUid" : "89d85bb64651950c066e814be3a6ad29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648647613264,
+        "stop" : 1648647613409,
+        "duration" : 145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should update seach category",
+      "uid" : "c88a3ff943845bb6",
+      "parentUid" : "89d85bb64651950c066e814be3a6ad29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648647613409,
+        "stop" : 1648647614183,
+        "duration" : 774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    } ],
+    "uid" : "89d85bb64651950c066e814be3a6ad29"
+  }, {
+    "name" : "watches page",
+    "children" : [ {
+      "name" : "should verify watches category list",
+      "uid" : "ea9ab265d75c9e96",
+      "parentUid" : "3f783d01f60bc7919706a5e442f8b0e5",
+      "status" : "failed",
+      "time" : {
+        "start" : 1648729891882,
+        "stop" : 1648729891958,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should show the banner container",
+      "uid" : "348a6a993c77be5e",
+      "parentUid" : "3f783d01f60bc7919706a5e442f8b0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648804779919,
+        "stop" : 1648804787236,
+        "duration" : 7317
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 18,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should show the banner title",
+      "uid" : "c0c63e1cd6f122cd",
+      "parentUid" : "3f783d01f60bc7919706a5e442f8b0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648804787237,
+        "stop" : 1648804787522,
+        "duration" : 285
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 18,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should have url when click button",
+      "uid" : "73a68966b73978a5",
+      "parentUid" : "3f783d01f60bc7919706a5e442f8b0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648804787522,
+        "stop" : 1648804790982,
+        "duration" : 3460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 18,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should have url when click button with chai",
+      "uid" : "691b1906f9a8ae1b",
+      "parentUid" : "3f783d01f60bc7919706a5e442f8b0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648804790982,
+        "stop" : 1648804790997,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 18,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    }, {
+      "name" : "should open fashion section on hover effect",
+      "uid" : "3b186fcfa4155462",
+      "parentUid" : "3f783d01f60bc7919706a5e442f8b0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648804790997,
+        "stop" : 1648804799790,
+        "duration" : 8793
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 6,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.84" ]
+    } ],
+    "uid" : "3f783d01f60bc7919706a5e442f8b0e5"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "uid" : "9e0372f87380c24a",
+  "name" : "should redirect to a new page and verify the title",
+  "fullName" : "eBay search.should redirect to a new page and verify the title",
+  "historyId" : "6a2bc1a4c72a257700339cccd96df396",
+  "time" : {
+    "start" : 1648647279490,
+    "stop" : 1648647279490,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "eBay search"
+  }, {
+    "name" : "testClass",
+    "value" : "eBay search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should redirect to a new page and verify the title"
+  }, {
+    "name" : "package",
+    "value" : "eBay search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "955127a7625c2cf6",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1648646018844,
+        "stop" : 1648646018844,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e0372f87380c24a.json",
+  "parameterValues" : [ ]
+}

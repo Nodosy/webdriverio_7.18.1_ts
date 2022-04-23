@@ -1,0 +1,141 @@
+[ {
+  "uid" : "c88a3ff943845bb6",
+  "name" : "should update seach category",
+  "time" : {
+    "start" : 1648647613409,
+    "stop" : 1648647614183,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "348a6a993c77be5e",
+  "name" : "should show the banner container",
+  "time" : {
+    "start" : 1648804779919,
+    "stop" : 1648804787236,
+    "duration" : 7317
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a7a3c9ca90ae4d2",
+  "name" : "open ebay website main url and verify title to be correct",
+  "time" : {
+    "start" : 1648647603906,
+    "stop" : 1648647607969,
+    "duration" : 4063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32d7cb92a008a6e",
+  "name" : "should open new tab",
+  "time" : {
+    "start" : 1648567274078,
+    "stop" : 1648567312273,
+    "duration" : 38195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e0372f87380c24a",
+  "name" : "should redirect to a new page and verify the title",
+  "time" : {
+    "start" : 1648647279490,
+    "stop" : 1648647279490,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "73a68966b73978a5",
+  "name" : "should have url when click button",
+  "time" : {
+    "start" : 1648804787522,
+    "stop" : 1648804790982,
+    "duration" : 3460
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b186fcfa4155462",
+  "name" : "should open fashion section on hover effect",
+  "time" : {
+    "start" : 1648804790997,
+    "stop" : 1648804799790,
+    "duration" : 8793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcdf88bb34fe826b",
+  "name" : "should redirect to a new page and verify the title",
+  "time" : {
+    "start" : 1648647613264,
+    "stop" : 1648647613409,
+    "duration" : 145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b792aa08f3add010",
+  "name" : "should update seach category",
+  "time" : {
+    "start" : 1648647279490,
+    "stop" : 1648647279490,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d02bbb6ffa5d41f9",
+  "name" : "should take screenshot of website",
+  "time" : {
+    "start" : 1648562208759,
+    "stop" : 1648562212256,
+    "duration" : 3497
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98776cb52aa5c89",
+  "name" : "should search for a product and verify the search text value",
+  "time" : {
+    "start" : 1648647607970,
+    "stop" : 1648647613263,
+    "duration" : 5293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea9ab265d75c9e96",
+  "name" : "should verify watches category list",
+  "time" : {
+    "start" : 1648729891882,
+    "stop" : 1648729891958,
+    "duration" : 76
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "691b1906f9a8ae1b",
+  "name" : "should have url when click button with chai",
+  "time" : {
+    "start" : 1648804790982,
+    "stop" : 1648804790997,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0c63e1cd6f122cd",
+  "name" : "should show the banner title",
+  "time" : {
+    "start" : 1648804787237,
+    "stop" : 1648804787522,
+    "duration" : 285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

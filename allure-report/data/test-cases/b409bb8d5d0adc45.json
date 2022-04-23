@@ -1,0 +1,50 @@
+{
+  "uid" : "b409bb8d5d0adc45",
+  "name" : "should update seach category",
+  "fullName" : "eBay search.should update seach category",
+  "historyId" : "2ad2968e046b13d0268b5287a6426cec",
+  "time" : {
+    "start" : 1648646018845,
+    "stop" : 1648646018845,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "eBay search"
+  }, {
+    "name" : "testClass",
+    "value" : "eBay search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should update seach category"
+  }, {
+    "name" : "package",
+    "value" : "eBay search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b409bb8d5d0adc45.json",
+  "parameterValues" : [ ]
+}

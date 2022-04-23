@@ -1,0 +1,60 @@
+{
+  "uid" : "40fc013e007e4213",
+  "name" : "should show the banner container",
+  "fullName" : "watches page.should show the banner container",
+  "historyId" : "e6ca00ccb5cf1f1251193db83a110900",
+  "time" : {
+    "start" : 1648728010099,
+    "stop" : 1648728016627,
+    "duration" : 6528
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should show the banner container"
+  }, {
+    "name" : "package",
+    "value" : "watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40fc013e007e4213.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

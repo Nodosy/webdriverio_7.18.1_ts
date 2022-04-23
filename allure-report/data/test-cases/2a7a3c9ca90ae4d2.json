@@ -1,0 +1,86 @@
+{
+  "uid" : "2a7a3c9ca90ae4d2",
+  "name" : "open ebay website main url and verify title to be correct",
+  "fullName" : "eBay search.open ebay website main url and verify title to be correct",
+  "historyId" : "2655cf8225d3785513211ebaa5489a62",
+  "time" : {
+    "start" : 1648647603906,
+    "stop" : 1648647607969,
+    "duration" : 4063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "eBay search"
+  }, {
+    "name" : "testClass",
+    "value" : "eBay search"
+  }, {
+    "name" : "testMethod",
+    "value" : "open ebay website main url and verify title to be correct"
+  }, {
+    "name" : "package",
+    "value" : "eBay search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2faa83acbc729dca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648647270420,
+        "stop" : 1648647274397,
+        "duration" : 3977
+      }
+    }, {
+      "uid" : "4d84e53b8bf3d1bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648646009788,
+        "stop" : 1648646014083,
+        "duration" : 4295
+      }
+    }, {
+      "uid" : "b69539e7538a71fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648645936714,
+        "stop" : 1648645940530,
+        "duration" : 3816
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a7a3c9ca90ae4d2.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

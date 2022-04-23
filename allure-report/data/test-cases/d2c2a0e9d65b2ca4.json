@@ -1,0 +1,62 @@
+{
+  "uid" : "d2c2a0e9d65b2ca4",
+  "name" : "should verify watches category list",
+  "fullName" : "watches page.should verify watches category list",
+  "historyId" : "826e1f8f388b2106bddc0bf853478da3",
+  "time" : {
+    "start" : 1648729813232,
+    "stop" : 1648729813295,
+    "duration" : 63
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected undefined to deeply equal [ 'Watches', 'Wristwatches', …(3) ]      \n                      actual expected\n                      \n                      undefined[ 'Watches', 'Wristwatches', 'Other Watches', 'Pocket Watches', 'Time for a New Wristwatch?' ]\n                      ",
+  "statusTrace" : "AssertionError: expected undefined to deeply equal [ 'Watches', 'Wristwatches', …(3) ]\n                    at F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:29:51\n                    at step (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:33:23)\n                    at Object.next (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:14:53)\n                    at fulfilled (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:5:58)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify watches category list"
+  }, {
+    "name" : "package",
+    "value" : "watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2c2a0e9d65b2ca4.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

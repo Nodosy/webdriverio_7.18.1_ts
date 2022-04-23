@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649174797732' stop='1649174806678'>
+    <name>alert suite</name>
+    <title>alert suite</title>
+    <test-cases>
+        <test-case start='1649174797740' status='failed' stop='1649174806662'>
+            <name>should assert alerts</name>
+            <title>should assert alerts</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected Element{ …(200) } to equal 'You successfully clicked an alert'      
+                      actual expected
+                      
+                      Element { sessionId: '9f5998a8585c076b1577266bfaa0ca5f',You elementId:successfully '64622f8f-1e14-403c-bbbc-efeb09d0908d',clicked 'element-6066-11e4-a52e-4f735466cecf':an alert'64622f8f-1e14-403c-bbbc-efeb09d0908d', selector: '#result', parent: Browser { sessionId: '9f5998a8585c076b1577266bfaa0ca5f', capabilities: { acceptInsecureCerts: true, browserName: 'chrome', browserVersion: '99.0.4844.84', chrome: { chromedriverVersion: '99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875})', userDataDir: 'C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir9608_1930058281' }, 'goog:chromeOptions': { debuggerAddress: 'localhost:61943' }, networkConnectionEnabled: false, pageLoadStrategy: 'normal', platformName: 'windows', proxy: {}, setWindowRect: true, strictFileInteractability: false, timeouts: { implicit: 0, pageLoad: 300000, script: 30000 }, unhandledPromptBehavior: 'dismiss and notify', 'webauthn:extension:credBlob': true, 'webauthn:extension:largeBlob': true, 'webauthn:virtualAuthenticators': true }, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)], addLocatorStrategy: [Function (anonymous)], config: { specs: [ './test/specs/**/example.e2e.ts' ], suites: {}, exclude: [], outputDir: undefined, logLevel: 'info', logLevels: {}, excludeDriverLogs: [], bail: 0, waitforInterval: 500, waitforTimeout: 10000, framework: 'mocha', reporters: [ [ 'allure', [Object] ] ], services: [ 'chromedriver' ], maxInstances: 10, maxInstancesPerCapability: 100, filesToWatch: [], connectionRetryTimeout: 120000, connectionRetryCount: 3, execArgv: [], runnerEnv: {}, runner: 'local', specFileRetries: 0, specFileRetriesDelay: 0, specFileRetriesDeferred: false, reporterSyncInterval: 100, reporterSyncTimeout: 5000, cucumberFeaturesWithLineNumbers: [], autoCompileOpts: { autoCompile: true, tsNodeOpts: { transpileOnly: true, project: 'test/tsconfig.json' }, babelOpts: {} }, mochaOpts: { timeout: 60000, ui: 'bdd' }, jasmineOpts: { defaultTimeoutInterval: 10000 }, cucumberOpts: { timeout: 10000 }, onPrepare: [], onWorkerStart: [], onWorkerEnd: [], before: [], beforeSession: [], beforeSuite: [ [Function: bound beforeSuite] ], beforeHook: [], beforeTest: [], beforeCommand: [], afterCommand: [], afterTest: [ [Function: bound afterTest] ], afterHook: [], afterSuite: [], afterSession: [], after: [], onComplete: [], onReload: [], beforeFeature: [], beforeScenario: [], beforeStep: [], afterStep: [], afterScenario: [], afterFeature: [], baseUrl: 'http://localhost', _: [ 'run' ], $0: 'node_modules\\@wdio\\cli\\bin\\wdio.js', 'config-path': 'test/wdio.conf.ts', ignoredWorkerServices: [] } }, emit: [Function: bound ], isReactElement: false, addCommand: [Function (anonymous)], overwriteCommand: [Function (anonymous)] }
+                      </message>
+                <stack-trace>AssertionError: expected Element{ …(200) } to equal 'You successfully clicked an alert'
+                    at F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:390:33
+                    at step (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:32:23)
+                    at Object.next (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:13:53)
+                    at fulfilled (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:4:58)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

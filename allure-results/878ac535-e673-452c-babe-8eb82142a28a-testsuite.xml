@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650702099651' stop='1650702107027'>
+    <name>drag and drop api test suite</name>
+    <title>drag and drop api test suite</title>
+    <test-cases>
+        <test-case start='1650702099653' status='passed' stop='1650702107027'>
+            <name>should be able to drag an item and drop</name>
+            <title>should be able to drag an item and drop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

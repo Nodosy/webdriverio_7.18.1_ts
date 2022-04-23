@@ -1,0 +1,62 @@
+{
+  "uid" : "f833c1c5c06a3e8b",
+  "name" : "should verify watches category list",
+  "fullName" : "watches page.should verify watches category list",
+  "historyId" : "826e1f8f388b2106bddc0bf853478da3",
+  "time" : {
+    "start" : 1648729326334,
+    "stop" : 1648729326412,
+    "duration" : 78
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected Promise{undefined} to deeply equal [ 'Watches', 'Wristwatches', …(3) ]      \n                      actual expected\n                      \n                      Promise[ [Promise'Watches', 'Wristwatches', 'Other Watches', 'Pocket Watches', 'Time for a New Wristwatch?' ] {}\n                      ",
+  "statusTrace" : "AssertionError: expected Promise{undefined} to deeply equal [ 'Watches', 'Wristwatches', …(3) ]\n                    at F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:29:45\n                    at step (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:33:23)\n                    at Object.next (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:14:53)\n                    at F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:8:71\n                    at new Promise (<anonymous>)\n                    at __awaiter (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:4:12)\n                    at Context.<anonymous> (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\test\\specs\\watches2.ts:27:45)\n                    at Context.executeAsync (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:331:27)\n                    at Context.testFrameworkFnWrapper (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:51:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify watches category list"
+  }, {
+    "name" : "package",
+    "value" : "watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f833c1c5c06a3e8b.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

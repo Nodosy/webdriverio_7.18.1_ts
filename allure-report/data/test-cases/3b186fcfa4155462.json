@@ -1,0 +1,113 @@
+{
+  "uid" : "3b186fcfa4155462",
+  "name" : "should open fashion section on hover effect",
+  "fullName" : "watches page.should open fashion section on hover effect",
+  "historyId" : "e9d027202dfe00816c7d1d576313e7b5",
+  "time" : {
+    "start" : 1648804790997,
+    "stop" : 1648804799790,
+    "duration" : 8793
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 6,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "watches page"
+  }, {
+    "name" : "testClass",
+    "value" : "watches page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open fashion section on hover effect"
+  }, {
+    "name" : "package",
+    "value" : "watches page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "523b308fcab5e313",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648740633654,
+        "stop" : 1648740641564,
+        "duration" : 7910
+      }
+    }, {
+      "uid" : "88a4c399a85ca3f2",
+      "status" : "failed",
+      "statusDetails" : "Expect  to have attribute href containing\n                \n                Expected: \"Wristwatches\"\n                Received: undefined",
+      "time" : {
+        "start" : 1648740568659,
+        "stop" : 1648740586798,
+        "duration" : 18139
+      }
+    }, {
+      "uid" : "8026a9b5aa6c785e",
+      "status" : "broken",
+      "statusDetails" : "Can't call $ on element with selector \"#hl-cat-nav\" because element wasn't found",
+      "time" : {
+        "start" : 1648740323450,
+        "stop" : 1648740335814,
+        "duration" : 12364
+      }
+    }, {
+      "uid" : "ed1cd134ae9da002",
+      "status" : "broken",
+      "statusDetails" : "Can't call $ on element with selector \"#hl-cat-nav\" because element wasn't found",
+      "time" : {
+        "start" : 1648739898484,
+        "stop" : 1648739910681,
+        "duration" : 12197
+      }
+    }, {
+      "uid" : "cb732685a4688f6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648737767615,
+        "stop" : 1648737770120,
+        "duration" : 2505
+      }
+    }, {
+      "uid" : "1297da99f696f089",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648737722952,
+        "stop" : 1648737725188,
+        "duration" : 2236
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3b186fcfa4155462.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

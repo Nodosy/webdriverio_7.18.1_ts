@@ -1,0 +1,78 @@
+{
+  "uid" : "d02bbb6ffa5d41f9",
+  "name" : "should take screenshot of website",
+  "fullName" : "screenshot suite.should take screenshot of website",
+  "historyId" : "39f283101926110e21079dff42f25efd",
+  "time" : {
+    "start" : 1648562208759,
+    "stop" : 1648562212256,
+    "duration" : 3497
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7794ab1393f859cf",
+      "name" : "Screenshot",
+      "source" : "7794ab1393f859cf.png",
+      "type" : "image/png",
+      "size" : 78483
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "screenshot suite"
+  }, {
+    "name" : "testClass",
+    "value" : "screenshot suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should take screenshot of website"
+  }, {
+    "name" : "package",
+    "value" : "screenshot suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d02bbb6ffa5d41f9.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

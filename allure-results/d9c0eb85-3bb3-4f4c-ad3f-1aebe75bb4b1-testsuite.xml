@@ -1,0 +1,94 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648729316917' stop='1648729326428'>
+    <name>watches page</name>
+    <title>watches page</title>
+    <test-cases>
+        <test-case start='1648729316922' status='passed' stop='1648729323311'>
+            <name>should show the banner container</name>
+            <title>should show the banner container</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648729323312' status='passed' stop='1648729323460'>
+            <name>should show the banner title</name>
+            <title>should show the banner title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648729323460' status='passed' stop='1648729326318'>
+            <name>should have url when click button</name>
+            <title>should have url when click button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648729326318' status='passed' stop='1648729326334'>
+            <name>should have url when click button with chai</name>
+            <title>should have url when click button with chai</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1648729326334' status='failed' stop='1648729326412'>
+            <name>should verify watches category list</name>
+            <title>should verify watches category list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected Promise{undefined} to deeply equal [ 'Watches', 'Wristwatches', …(3) ]      
+                      actual expected
+                      
+                      Promise[ [Promise'Watches', 'Wristwatches', 'Other Watches', 'Pocket Watches', 'Time for a New Wristwatch?' ] {}
+                      </message>
+                <stack-trace>AssertionError: expected Promise{undefined} to deeply equal [ 'Watches', 'Wristwatches', …(3) ]
+                    at F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\watches2.ts:29:45
+                    at step (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\watches2.ts:33:23)
+                    at Object.next (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\watches2.ts:14:53)
+                    at F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\watches2.ts:8:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\watches2.ts:4:12)
+                    at Context.&lt;anonymous> (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\watches2.ts:27:45)
+                    at Context.executeAsync (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\shim.js:331:27)
+                    at Context.testFrameworkFnWrapper (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:51:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

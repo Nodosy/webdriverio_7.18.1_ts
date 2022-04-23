@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649177453517' stop='1649177459173'>
+    <name>alert suite</name>
+    <title>alert suite</title>
+    <test-cases>
+        <test-case start='1649177453519' status='failed' stop='1649177459172'>
+            <name>should assert alerts</name>
+            <title>should assert alerts</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'You successfully clicked an alert' to equal 'You entered: null'      
+                      actual expected
+                      
+                      'You successfullyentered: clicked an alertnull'
+                      </message>
+                <stack-trace>AssertionError: expected 'You successfully clicked an alert' to equal 'You entered: null'
+                    at F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:414:38
+                    at step (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:32:23)
+                    at Object.next (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:13:53)
+                    at fulfilled (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts:4:58)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

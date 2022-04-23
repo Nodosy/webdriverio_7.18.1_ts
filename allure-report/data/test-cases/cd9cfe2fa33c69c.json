@@ -1,0 +1,62 @@
+{
+  "uid" : "cd9cfe2fa33c69c",
+  "name" : "should open new tab",
+  "fullName" : "handle multiple tabs suite.should open new tab",
+  "historyId" : "769572470e7d8682f939789017521c71",
+  "time" : {
+    "start" : 1648566428942,
+    "stop" : 1648566443527,
+    "duration" : 14585
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call setValue on element with selector \"#email-address\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"#email-address\" because element wasn't found\n                    at implicitWait (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\runner\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (F:\\Javascript\\Front-End-Web-Development\\webdriverio\\7.18.1_ts\\node_modules\\@wdio\\runner\\node_modules\\@wdio\\utils\\build\\shim.js:137:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "testClass",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open new tab"
+  }, {
+    "name" : "package",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd9cfe2fa33c69c.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

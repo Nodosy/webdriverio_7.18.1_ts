@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648567000144' stop='1648567021168'>
+    <name>handle multiple tabs suite</name>
+    <title>handle multiple tabs suite</title>
+    <test-cases>
+        <test-case start='1648567000144' status='passed' stop='1648567021164'>
+            <name>should open new tab</name>
+            <title>should open new tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

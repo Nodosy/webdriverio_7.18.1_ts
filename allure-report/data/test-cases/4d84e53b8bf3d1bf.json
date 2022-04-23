@@ -1,0 +1,60 @@
+{
+  "uid" : "4d84e53b8bf3d1bf",
+  "name" : "open ebay website main url and verify title to be correct",
+  "fullName" : "eBay search.open ebay website main url and verify title to be correct",
+  "historyId" : "2655cf8225d3785513211ebaa5489a62",
+  "time" : {
+    "start" : 1648646009788,
+    "stop" : 1648646014083,
+    "duration" : 4295
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "eBay search"
+  }, {
+    "name" : "testClass",
+    "value" : "eBay search"
+  }, {
+    "name" : "testMethod",
+    "value" : "open ebay website main url and verify title to be correct"
+  }, {
+    "name" : "package",
+    "value" : "eBay search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d84e53b8bf3d1bf.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

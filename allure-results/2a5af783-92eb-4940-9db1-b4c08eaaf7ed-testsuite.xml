@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649352400496' stop='1649352460510'>
+    <name>simple login test</name>
+    <title>simple login test</title>
+    <test-cases>
+        <test-case start='1649352400499' status='broken' stop='1649352460509'>
+            <name>should login with correct credentials</name>
+            <title>should login with correct credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "simple login test should login with correct credentials" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "simple login test should login with correct credentials" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\test\specs\example.e2e.ts)
+                    at createTimeoutError (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:557:17)
+                    at processTimers (internal/timers.js:500:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

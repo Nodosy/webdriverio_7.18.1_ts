@@ -1,0 +1,60 @@
+{
+  "uid" : "d7a00bef33b9d24b",
+  "name" : "should open new tab",
+  "fullName" : "handle multiple tabs suite.should open new tab",
+  "historyId" : "769572470e7d8682f939789017521c71",
+  "time" : {
+    "start" : 1648567000144,
+    "stop" : 1648567021164,
+    "duration" : 21020
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "testClass",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open new tab"
+  }, {
+    "name" : "package",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d7a00bef33b9d24b.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

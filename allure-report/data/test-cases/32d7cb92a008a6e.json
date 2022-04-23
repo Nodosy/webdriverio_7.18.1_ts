@@ -1,0 +1,88 @@
+{
+  "uid" : "32d7cb92a008a6e",
+  "name" : "should open new tab",
+  "fullName" : "handle multiple tabs suite.should open new tab",
+  "historyId" : "769572470e7d8682f939789017521c71",
+  "time" : {
+    "start" : 1648567274078,
+    "stop" : 1648567312273,
+    "duration" : 38195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "testClass",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "testMethod",
+    "value" : "should open new tab"
+  }, {
+    "name" : "package",
+    "value" : "handle multiple tabs suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.84"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7a00bef33b9d24b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648567000144,
+        "stop" : 1648567021164,
+        "duration" : 21020
+      }
+    }, {
+      "uid" : "db41b074dd536713",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#email-address\" because element wasn't found",
+      "time" : {
+        "start" : 1648566743179,
+        "stop" : 1648566758145,
+        "duration" : 14966
+      }
+    }, {
+      "uid" : "cd9cfe2fa33c69c",
+      "status" : "broken",
+      "statusDetails" : "Can't call setValue on element with selector \"#email-address\" because element wasn't found",
+      "time" : {
+        "start" : 1648566428942,
+        "stop" : 1648566443527,
+        "duration" : 14585
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32d7cb92a008a6e.json",
+  "parameterValues" : [ "chrome-99.0.4844.84" ]
+}

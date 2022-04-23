@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649355043287' stop='1649355053944'>
+    <name>Smoke test suite</name>
+    <title>Smoke test suite</title>
+    <test-cases>
+        <test-case start='1649355043289' status='broken' stop='1649355053928'>
+            <name>should verify login section</name>
+            <title>should verify login section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.84'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call $$ on element with selector "form" because element wasn't found</message>
+                <stack-trace>Error: Can't call $$ on element with selector "form" because element wasn't found
+                    at implicitWait (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\@wdio\runner\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\@wdio\runner\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (F:\Javascript\Front-End-Web-Development\webdriverio\7.18.1_ts\node_modules\@wdio\runner\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

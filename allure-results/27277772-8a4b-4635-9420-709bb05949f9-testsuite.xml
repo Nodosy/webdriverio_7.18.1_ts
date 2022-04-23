@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1650701978899' stop='1650701991181'>
+    <name>Smoke test suite</name>
+    <title>Smoke test suite</title>
+    <test-cases>
+        <test-case start='1650701978905' status='failed' stop='1650701991108'>
+            <name>should verify login section</name>
+            <title>should verify login section</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-100.0.4896.127'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $(`form`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"</message>
+                <stack-trace>Error: Expect $(`form`) to exist
+                
+                Expected: "exist"
+                Received: "not exist"
+                    at C:\Users\User\Desktop\webdriverio_7.18.1_ts\test\specs\example.e2e.ts:151:24
+                    at step (C:\Users\User\Desktop\webdriverio_7.18.1_ts\test\specs\example.e2e.ts:32:23)
+                    at Object.next (C:\Users\User\Desktop\webdriverio_7.18.1_ts\test\specs\example.e2e.ts:13:53)
+                    at fulfilled (C:\Users\User\Desktop\webdriverio_7.18.1_ts\test\specs\example.e2e.ts:4:58)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
