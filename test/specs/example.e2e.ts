@@ -4,6 +4,8 @@ const expectChai = require("chai").expect;
 // npm init -y
 // npm install webdriverio
 
+//  npx npm-check-updates -u განახლებების სანახავად
+
 // $ npm install --save-dev @wdio/cli
 // $ npx wdio config --yes
 // $ npx wdio run
@@ -17,10 +19,13 @@ const expectChai = require("chai").expect;
 
 // run test:
 // npx wdio run ./wdio.conf.js
-// npx wdio run test/wdio.conf.ts
+// 🔥 npx wdio run test/wdio.conf.ts
 // npx wdio run wdio.conf.js
 // npx wdio run wdio.conf.ts
 // npm run wdio
+
+// to upgrade webdriverio
+// https://nodejs.dev/learn/update-all-the-nodejs-dependencies-to-their-latest-version
 
 // 🔥🔥🔥
 // test suite
@@ -157,17 +162,17 @@ describe("Smoke test suite", () => {
     const attribute_id = await $("[id=txtUsername]");
     await expect(attribute_id).toExist();
     /**
-     * $("input")
-     * $("#myId")
-     * $(".myClass")
-     * $("[placeholder]")
-     * $("[placeholder='Email']")
-     * $("[class='myClassFirst myClassSecond']")
-     * $("input[placeholder='Email']")
-     * $("[placeholder='Email'][fullwidth]")
+     * $("input") by html element
+     * $("#myId") by id
+     * $(".myClass") by class
+     * $("[placeholder]") by attribute
+     * $("[placeholder='Email']") by attribute name
+     * $("[class='myClassFirst myClassSecond']") by classes
+     * $("input[placeholder='Email']") by html element and attribute name
+     * $("[placeholder='Email'][fullwidth]") by several attributes
      * $("input[placeholder='Email']#inputEmail.input-full-width")
-     * $('=WebdriverIO')
-     * $('*=driver')
+     * $('=WebdriverIO') by exact match
+     * $('*=driver') by contains
      * $('h1=Welcome to my Page')
      * $('h1*=Welcome')
      * $('.someElem=WebdriverIO is the best')

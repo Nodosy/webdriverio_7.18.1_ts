@@ -4,6 +4,7 @@ export default class Page {
   // }
   public async open(path: string) {
     // await browser.url(path)
+    // tutorial from Joanmedia on youtube
     await browser.url(`https://demoqa.com/${path}`);
   }
 }
